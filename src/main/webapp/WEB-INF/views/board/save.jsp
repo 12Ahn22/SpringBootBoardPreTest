@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: An
   Date: 2024-04-28
-  Time: 오후 8:27
+  Time: 오후 9:28
   To change this template use File | Settings | File Templates.
 --%>
 
@@ -13,10 +13,16 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Index Page</title>
+    <title>글 작성</title>
+    <form action="save" method="post">
+        제목: <input type="text" name="boardTitle"/>
+        작성자: <input type="text" name="boardWriter"/>
+        비밀번호: <input type="text" name="boardPass"/>
+        내용: <input type="text" name="boardContents"/>
+        <input type="submit" value="작성">
+    </form>
 </head>
 <body>
-    <h1>INDEX PAGE</h1>
-    <a href="/board/save">글 작성</a>
+
 </body>
 </html>
