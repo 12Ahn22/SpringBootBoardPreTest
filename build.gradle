@@ -38,7 +38,10 @@ dependencies {
 	// 시큐리티를 위한 태그
 	implementation 'org.springframework.security:spring-security-taglibs'
 
-
+	// 마리아 DB 드라이버
+	implementation 'org.mariadb.jdbc:mariadb-java-client:3.3.3'
+	// MyBatis
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.2'
 
 }
 
